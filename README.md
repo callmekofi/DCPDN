@@ -2,7 +2,6 @@
 
 ## Densely Connected Pyramid Dehazing Network (CVPR'2018)
 [He Zhang](https://sites.google.com/site/hezhangsprinter), [Vishal M. Patel](http://www.rci.rutgers.edu/~vmp93/)
-
 [[Paper Link](https://arxiv.org/abs/1803.08396)] (CVPR'18)
 
 We propose a new end-to-end single image dehazing method, called Densely Connected Pyramid Dehazing Network (DCPDN), which can jointly learn the transmission map, atmospheric light and dehazing all together. The end-to-end learning is achieved by directly embedding the atmospheric scattering model into the network, thereby ensuring that the proposed method strictly follows the physics-driven scattering model for dehazing. Inspired by the dense network that can maximize the information flow along features from different levels, we propose a new edge-preserving densely connected encoder-decoder structure with multi-level pyramid pooling module for estimating the transmission map. This network is optimized using a newly introduced edge-preserving loss function. To further incorporate the mutual structural information between the estimated transmission map and the dehazed result, we propose a joint-discriminator based on generative adversarial network framework to decide whether the
@@ -17,7 +16,6 @@ corresponding dehazed image and the estimated transmission map are real or fake.
 
 <p align="center">
 <img src="demo_image/over_input1.png" width="250px" height="200px"/>         <img src="demo_image/over_our.png" width="250px" height="200px"/>
-
 
 
 ## Prerequisites:
